@@ -1,0 +1,32 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-black-text-color: #212121;
+    --secondary-white-text-color: #FFFFFF;
+    --accent-text-color: #2196F3;
+    --footer-contact-text-color: #FFFFFF99;
+
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #2F303A;
+    --accent-bg-color: #F5F4FA;
+}
+
+/*portfolio filter buttons*/
+/*portfolio filter buttons bg and txt color*/
+.portfolio-filter .button {
+color: var(--secondary-black-text-color);
+background-color: var(--accent-bg-color);
+}
+
+/*portfolio filter buttons hover and focus*/
+.portfolio-filter .button:hover,
+.portfolio-filter .button:focus
+{
+    color: var(--primary-bg-color);
+    background-color: var(--accent-text-color);   
+}
+
+/*portfolio list*/
+/*portfolio list item title color*/
+.portfolio-item-title {
+    color: var(--secondary-black-text-color);
+}
