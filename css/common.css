@@ -1,13 +1,9 @@
-/* primary text color: #757575;
-*/
-/* secondary text color: #212121;
-*/
-/* accent color : #2196F3;
-*/
+/* primary text color: #757575;*/
+/* secondary text color: #212121;*/
+/* accent color : #2196F3;*/
 /* primary bg color: #FFFFFF; */
-/* secondary bg color: #2F303A */
-/* accent bg color: #F5F4FA;
- */
+/* secondary bg color: #2F303A; */
+/* accent bg color: #F5F4FA; */
 
 :root {
     --primary-text-color: #757575;
@@ -19,8 +15,8 @@
     --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #2F303A;
     --accent-bg-color: #F5F4FA;
-
 }
+
 /*body primary text color */
 body { color: var(--primary-text-color);
 }
@@ -28,11 +24,6 @@ body { color: var(--primary-text-color);
 /* list styles reset */
 .list { 
     list-style: none;
-}
-
-/* hiding features title */
-.features .features-hided-title {
-    display: none;
 }
 
 /*logo header*/
@@ -64,51 +55,6 @@ body { color: var(--primary-text-color);
 .nav-contacts .nav-contacts-link:hover,
 .nav-contacts .nav-contacts-link:focus {
     color: var(--accent-text-color);
-}
-
-/* hero section */
-/* hero section background */
-.hero {
-    background-color: var(--secondary-bg-color);
-}
-
-/* hero section title */
-.hero .hero-title {
-    color: var(--secondary-white-text-color);
-}
-
-/* hero section button */
-.button {
-    color: var(--secondary-white-text-color);
-    background-color: var(--accent-text-color);
-}
-
-/* hero section button hover and focus */
-.button:focus {
-    background-color: var(--accent-text-color);
-}
-
-/* features */
-/* features titles */
-
-.features .features-title {
-    color: var(--secondary-black-text-color);
-}
-
-/* section titles */
-.section-title {
-    color: var(--secondary-black-text-color);
-}
-
-/* our team section */
-/* our team section bg color*/
-.our-team {
-    background-color: var(--accent-bg-color);
-}
-
-/* our team section names */
-.team-list .team-list-name {
-    color: var(--secondary-black-text-color);
 }
 
 /* footer section */

@@ -1,0 +1,51 @@
+
+/* hero section */
+/* hero section background */
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+/* hero section title */
+.hero .hero-title {
+    color: var(--secondary-white-text-color);
+}
+
+/* hero section button */
+.button {
+    color: var(--secondary-white-text-color);
+    background-color: var(--accent-text-color);
+}
+
+/* hero section button hover and focus */
+.button:focus {
+    background-color: var(--accent-text-color);
+}
+
+/* features */
+/* features titles */
+
+/* hiding features title */
+.features .features-hided-title {
+    display: none;
+}
+
+.features .features-title {
+    color: var(--secondary-black-text-color);
+}
+
+/* section titles */
+.section-title {
+    color: var(--secondary-black-text-color);
+}
+
+/* our team section */
+/* our team section bg color*/
+.our-team {
+    background-color: var(--accent-bg-color);
+}
+
+/* our team section names */
+.team-list .team-list-name {
+    color: var(--secondary-black-text-color);
+}
+
