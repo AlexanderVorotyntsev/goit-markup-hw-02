@@ -1,4 +1,14 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-black-text-color: #212121;
+    --secondary-white-text-color: #FFFFFF;
+    --accent-text-color: #2196F3;
+    --footer-contact-text-color: #FFFFFF99;
 
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #2F303A;
+    --accent-bg-color: #F5F4FA;
+}
 /* hero section */
 /* hero section background */
 .hero {
@@ -17,8 +27,10 @@
 }
 
 /* hero section button hover and focus */
+.button:hover,
 .button:focus {
-    background-color: var(--accent-text-color);
+    background-color: var(--accent-bg-color);
+    color: var(--accent-text-color);
 }
 
 /* features */
