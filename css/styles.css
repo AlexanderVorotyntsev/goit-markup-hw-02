@@ -44,16 +44,91 @@ body { color: var(--primary-text-color);
 
 /* site-nav */
 /* site-nav-links */
-/* site-nav-links active and hover */
 .site-nav .site-nav-link { 
     color: var(--secondary-black-text-color);
 }
 
+/* site-nav-links active and hover */
 .site-nav .site-nav-link:hover,
 .site-nav .site-nav-link:focus {
     color: var(--accent-text-color);
 }
 
+/* nav-contacts */
+/* nav-contacts-links */
 .nav-contacts .nav-contacts-link {
     color: var(--primary-text-color);
+}
+
+/* nav-contacts-links active and hover */
+.nav-contacts .nav-contacts-link:hover,
+.nav-contacts .nav-contacts-link:focus {
+    color: var(--accent-text-color);
+}
+
+/* hero section */
+/* hero section background */
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+/* hero section title */
+.hero .hero-title {
+    color: var(--secondary-white-text-color);
+}
+
+/* hero section button */
+.button {
+    color: var(--secondary-white-text-color);
+    background-color: var(--accent-text-color);
+}
+
+/* hero section button hover and focus */
+.button:focus {
+    background-color: var(--accent-text-color);
+}
+
+/* features */
+/* features titles */
+
+.features .features-title {
+    color: var(--secondary-black-text-color);
+}
+
+/* section titles */
+.section-title {
+    color: var(--secondary-black-text-color);
+}
+
+/* our team section */
+/* our team section bg color*/
+.our-team {
+    background-color: var(--accent-bg-color);
+}
+
+/* our team section names */
+.team-list .team-list-name {
+    color: var(--secondary-black-text-color);
+}
+
+/* footer section */
+/* footer section bg color */
+
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+
+/* logo fooger */
+.logo .footer-logo {
+    color: var(--secondary-white-text-color);
+}
+
+/* footer contacts address*/
+.footer-contacts .footer-contacts-address {
+    color: var(--secondary-white-text-color);
+}
+
+/* footer contacts links */
+.footer-contacts .footer-contacts-link {
+    color: var(--footer-contact-text-color);
 }
