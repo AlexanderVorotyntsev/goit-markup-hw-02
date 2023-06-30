@@ -78,3 +78,10 @@ body { color: var(--primary-text-color);
 .footer-contacts .footer-contacts-link {
     color: var(--footer-contact-text-color);
 }
+
+/*footer contact links hover and focus*/
+.footer-contacts .footer-contacts-link:hover,
+.footer-contacts .footer-contacts-link:focus
+{ 
+    color: var(--accent-text-color);
+}
