@@ -21,19 +21,39 @@
     --accent-bg-color: #F5F4FA;
 
 }
+/*body primary text color */
+body { color: var(--primary-text-color);
+}
 
+/* list styles reset */
 .list { 
     list-style: none;
 }
 
+/* hiding features title */
 .features .features-hided-title {
     display: none;
 }
 
+/*logo header*/
 .logo { color: var(--accent-text-color);
-
 }
 
-.logo .logo-header { color: var(--secondary-black-text-color)
-    
+.logo .logo-header { color: var(--secondary-black-text-color);
+}
+
+/* site-nav */
+/* site-nav-links */
+/* site-nav-links active and hover */
+.site-nav .site-nav-link { 
+    color: var(--secondary-black-text-color);
+}
+
+.site-nav .site-nav-link:hover,
+.site-nav .site-nav-link:focus {
+    color: var(--accent-text-color);
+}
+
+.nav-contacts .nav-contacts-link {
+    color: var(--primary-text-color);
 }
