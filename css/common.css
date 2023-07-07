@@ -57,6 +57,13 @@ body { color: var(--primary-text-color);
     color: var(--accent-text-color);
 }
 
+/* current nav styles*/
+.site-nav .site-nav-link.current{
+    color: var(--accent-text-color);
+}
+
+
+
 /* footer section */
 /* footer section bg color */
 
