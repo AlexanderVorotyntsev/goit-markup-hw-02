@@ -4,7 +4,6 @@
     --secondary-white-text-color: #FFFFFF;
     --accent-text-color: #2196F3;
     --footer-contact-text-color: #FFFFFF99;
-
     --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #2F303A;
     --accent-bg-color: #F5F4FA;
@@ -17,6 +16,10 @@
 .portfolio-filter .button {
 color: var(--secondary-black-text-color);
 background-color: var(--accent-bg-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.625em; /* 162.5% */
+/* text-align: center; */
 }
 
 /*portfolio filter buttons hover and focus*/
@@ -29,6 +32,20 @@ background-color: var(--accent-bg-color);
 
 /*portfolio list*/
 /*portfolio list item title color*/
-.portfolio-item-title {
+.portfolio-item .portfolio-item-link {
+    text-decoration: none;
+}
+
+h2.portfolio-item-title {
     color: var(--secondary-black-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em; /* 200% */
+    letter-spacing: 0.06em;
+}
+
+.portfolio-item .portfolio-item-description {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.875em; /* 187.5% */
 }

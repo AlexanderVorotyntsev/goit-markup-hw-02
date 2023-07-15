@@ -16,7 +16,6 @@ font-family: 'Roboto', sans-serif;
     --secondary-white-text-color: #FFFFFF;
     --accent-text-color: #2196F3;
     --footer-contact-text-color: #FFFFFF99;
-
     --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #2F303A;
     --accent-bg-color: #F5F4FA;
@@ -24,9 +23,12 @@ font-family: 'Roboto', sans-serif;
 
 /*body primary text color */
 body { 
-    color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
 }
 
 /* list styles reset */
@@ -37,8 +39,10 @@ body {
 /*logo header*/
 .logo { 
     color: var(--accent-text-color);
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .logo .logo-header { color: var(--secondary-black-text-color);
@@ -49,6 +53,8 @@ body {
 .site-nav .site-nav-link { 
     color: var(--secondary-black-text-color);
     text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 /* site-nav-links active and hover */
@@ -61,6 +67,8 @@ body {
 /* nav-contacts-links */
 .nav-contacts .nav-contacts-link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
@@ -87,6 +95,13 @@ body {
 /* logo fooger */
 .logo .footer-logo {
     color: var(--secondary-white-text-color);
+}
+
+
+/* footer contacts styles*/
+.footer-contacts {
+    font-style: normal;
+    line-height: 1.71429em; /* 171.429% */
 }
 
 /* footer contacts address*/
