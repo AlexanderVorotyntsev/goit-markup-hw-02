@@ -35,6 +35,7 @@
     line-height: 1.875em; /* 187.5% */
     letter-spacing: 0.06em;
     /* text-align: center; */
+    cursor: pointer;
 }
 
 
